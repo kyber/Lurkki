@@ -1,0 +1,55 @@
+bitchbot 1.0.2 readme
+=====================
+Hi, thanks for downloading bitchbot. To use bitchbot you need
+the perl interpreter installed. Really you should be looking
+at the bitchbot website for this sort of information,
+http://www.r1ch.net/projects/bitchbot/. There you can also find
+a number of additional modules or other programs to further
+enhance the featureset of bitchbot, as well as the all
+important command reference.
+
+What's new in 1.0.2
+===================
+Lots. Check out that website! That'll teach you to click the
+download only link from freshmeat :)
+http://www.r1ch.net/projects/bitchbot/
+
+Running the bot
+===============
+Take a look at the top of the bitch.pl file in your favorite
+text editor. That contains a lot more detailed information on
+various aspects of how to get the bot running. Also check out
+the website!
+
+(For the impatient unix-flavour users)
+  vi bitch.conf.template
+  mv bitch.conf.template bitch.conf
+  perl bitch.pl &
+
+(or for you Windows users...)
+* Place everything in your ActivePerl 'bin' directory.
+
+* Run notepad, open bitch.conf.template and edit it filling
+  in the required information. Goto File... Save As and in
+  the filename box enter "bitch.conf" WITH the quotes. Now
+  your config is set up.
+
+* Goto a command prompt (try start... run... command or
+  start...run... cmd for NT/2K users). Change to the drive
+  and directory with bitch.pl (eg cd \perl\bin)
+
+* Enter 'perl bitch.pl' and press ENTER. Bot running. If
+  not you broke something, reinstall everything and try
+  again.
+
+Well, I'm hoping the target audience of this bot actually know
+what perl is and won't go into mIRC and try and load it as a
+.mrc script (yes I've had someone try and do that). Generally
+this isn't hard to get running, if you can't get it up and
+running you probably shouldn't be using it anyway.
+
+Enjoy!
+
+R1CH aka Richard Stanway
+http://www.r1ch.net/
+
